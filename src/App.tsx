@@ -1,7 +1,9 @@
 import React from 'react';
+import Home from './pages/Home';
+import './styles/index.css';
 
 const src: React.FC = () => {
-  return <h1>Teste</h1>;
+  return <Home />;
 };
 
 export default src;
